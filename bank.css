@@ -1,0 +1,91 @@
+.bank{
+    font-size: 60px;
+    text-align: center;
+}
+.money{
+    color: blue;
+}
+.bankCard{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.bankCard h3{
+    font-size: 40px;
+}
+.bankCard h4{
+    font-size: 25px;
+}
+.deposit{
+    color: white;
+    background-color:coral;
+    width: 33%;
+    border-radius: 10px;
+    
+}
+.depositPadding{
+    padding:0 20px;
+}
+.withdraw{
+    color: white;
+    background-color: orangered;
+    width: 33%;
+    border-radius: 10px;
+    
+}
+.balance{
+    color: white;
+    background-color: darkorchid;
+    width: 33%;
+    border-radius: 10px;
+   
+}
+
+
+.amountSection{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.depositPart,.withdrawPart{
+    background-color:slateblue;
+   width: 48%;
+   border-radius: 10px;
+}
+.depositPart h4,.withdrawPart h4{
+    font-size: 25px;
+    padding: 10px 20px 0;
+    color: white;
+}
+#depositAmaunt,#WithdrawAmaunt{
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 75%;
+    border:  1px solid transparent;
+    margin-left: 20px;
+}
+#Deposit{
+    padding: 10px 30px;
+    background-color: coral;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+#Withdraw{
+    padding: 10px 30px;
+    background-color: coral;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid green;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <h1 class="bank">Let's get some <span class="money">moooooooney</span>!!!</h1>
+    <div class="bankCard">
+        <div class="deposit">
+            <div class="depositPadding">
+                <h4>Deposit</h4>
+                <h3>$ <span id="depositAmaunts">00</span></h3>
+            </div>
+        </div>
+        <div class="withdraw">
+            <div class="depositPadding">
+                <h4>withdraw</h4>
+                <h3>$ <span id="withdrawAmaunts">00</span></h3>
+            </div>
+        </div>
+        <div class="balance">
+          <div class="depositPadding">
+              <h4>Balance</h4>
+            <h3>$ <span id="balance">1240</span></h3>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- second part -->
+
+    <div class="amountSection">
+        <div class="depositPart">
+           <div class="depositPadding">
+            <h4 class="login">Please Deposit</h4>
+            <input type="text" id="DepositBaleace" placeholder="$ Amount you want to deposit">
+            <br>
+            <button id="Deposit">Deposit</button>
+           </div>
+           </div>
+
+           <div class="withdrawPart">
+           <div class="depositPadding">
+            <h4 class="login">Please Withdraw</h4>
+            <input type="text" id="WithdrawAmaunt" placeholder="$ Amount you want to Withdraw">
+            <br>
+            <button id="Withdraw">Withdraw</button>
+           </div>
+           </div>
+    </div>
+
+    <script src="utilites.js"></script>
+    <script src="deposit.js"></script>
+    <script src="withdraw.js"></script>
+</body>
+</html>

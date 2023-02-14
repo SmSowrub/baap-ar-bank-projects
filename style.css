@@ -1,0 +1,34 @@
+.Welcome{
+    font-size: 60px;
+    text-align: center;
+}
+.baap-ar-bank{
+    color: blue;
+}
+.loginSite{
+    width: 75%;
+    background-color: cyan;
+    margin: 0 auto;
+    padding: 20px;
+}
+.login{
+    margin-left: 20px;
+}
+
+#email, #password{
+    border-radius: 10px;
+    padding:  10px;
+    border:1px solid transparent;
+    width: 75%;
+    margin: 10px 20px;
+}
+#submit{
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
